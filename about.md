@@ -1,6 +1,8 @@
 ---
 layout: default
 title: About
+description: "Learn about Simply Productive's mission to help small businesses achieve more by doing less. Our philosophy focuses on simple, practical productivity solutions that actually work."
+keywords: "about simply productive, company mission, productivity philosophy, small business consulting, business efficiency experts"
 ---
 
 <!-- About Hero -->

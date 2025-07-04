@@ -1,11 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ site.lang | default: 'en' }}">
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title }} | {{ site.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/css/styles.css">
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <meta name="author" content="{{ page.author | default: site.author }}">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="{{ '/assets/images/SP - Logo - 500x500.png' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ '/assets/images/SP - Logo - 500x500.png' | relative_url }}">
+  
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+  
+  <!-- SEO and Social Media Tags -->
+  {% seo %}
 </head>
 <body>
   <header class="site-header">

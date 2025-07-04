@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://getsimplyproductive.com/sitemap.xml
+
+# Disallow crawling of admin areas (when they exist)
+Disallow: /admin/
+Disallow: /drafts/
+Disallow: /_site/
+
+# Allow crawling of important pages
+Allow: /
+Allow: /about
+Allow: /products
+Allow: /contact
+Allow: /blog/
+Allow: /resources/
+Allow: /case-studies/
+
+# Crawl delay (optional)
+Crawl-delay: 1

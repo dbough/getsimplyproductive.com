@@ -1,4 +1,118 @@
+# Site Information
 title: Simply Productive
-description: Helping small businesses simplify their workflows.
+tagline: "Work Smarter, Not Harder"
+description: "Helping small businesses simplify their workflows with practical apps, expert consulting, and educational content. Transform your productivity without the complexity."
+long_description: "Simply Productive exists to help small businesses achieve more by doing less. We offer carefully crafted productivity apps, strategic consulting services, and educational content designed to streamline workflows and boost efficiency without overwhelming complexity."
+
+# URLs
 baseurl: "" # if deploying to root domain
 url: "https://getsimplyproductive.com"
+
+# SEO and Social
+author: "Simply Productive Team"
+twitter:
+  username: simplyproductive
+  card: summary_large_image
+facebook:
+  app_id: # Add Facebook App ID when available
+  publisher: # Add Facebook Page URL when available
+logo: "/assets/images/SP - Logo - 500x500.png"
+social:
+  name: Simply Productive
+  links:
+    - https://twitter.com/simplyproductive
+    - https://linkedin.com/company/simply-productive
+    - https://youtube.com/@simplyproductive
+
+# Contact Information
+email: hello@getsimplyproductive.com
+phone: "+1-555-SIMPLE-1"
+address:
+  street: "Remote-first company"
+  city: "Serving small businesses"
+  state: "worldwide"
+  zip: ""
+  country: "Global"
+
+# Business Information
+business_hours: "Monday-Friday, 9 AM - 5 PM EST"
+founded_year: 2024
+company_type: "Productivity Consulting & Software"
+
+# SEO Settings
+lang: en_US
+timezone: America/New_York
+google_analytics: # Add GA tracking ID when available
+google_site_verification: # Add Google Search Console verification when available
+
+# Blog Configuration (for future use)
+permalink: /blog/:year/:month/:day/:title/
+paginate: 10
+paginate_path: "/blog/page:num/"
+
+# Collections (for future content types)
+collections:
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
+  case_studies:
+    output: true
+    permalink: /case-studies/:name/
+  resources:
+    output: true
+    permalink: /resources/:name/
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      author: "Simply Productive Team"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Simply Productive Team"
+      show_excerpts: true
+
+# Plugin Configuration
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Feed Settings
+feed:
+  excerpt_only: true
+  
+# Sitemap Settings
+sitemap:
+  exclude:
+    - "/admin/"
+    - "/drafts/"
+
+# Build Settings
+markdown: kramdown
+highlighter: rouge
+incremental: false
+safe: true
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - package.json
+  - package-lock.json
+  - webpack.config.js

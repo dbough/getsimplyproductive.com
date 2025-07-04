@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Home
+description: "Simply Productive helps small businesses work smarter with productivity apps, consulting services, and educational content. Simplify your workflows without the complexity."
+keywords: "productivity, small business, workflow optimization, business consulting, productivity apps, business efficiency"
 ---
 
 <!-- Hero Section -->

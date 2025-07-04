@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Contact
+description: "Get in touch with Simply Productive for productivity consulting, app development, or general inquiries. We help small businesses simplify their workflows and boost efficiency."
+keywords: "contact simply productive, productivity consulting inquiry, business workflow help, get in touch, productivity consultation"
 ---
 
 <!-- Contact Hero -->

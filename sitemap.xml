@@ -1,0 +1,39 @@
+---
+layout: null
+sitemap:
+  exclude: 'yes'
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>{{ site.url }}/</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <priority>1.00</priority>
+  </url>
+  {% for page in site.pages %}
+    {% unless page.sitemap.exclude == "yes" %}
+      <url>
+        <loc>{{ site.url }}{{ page.url }}</loc>
+        {% if page.sitemap.lastmod %}
+          <lastmod>{{ page.sitemap.lastmod | date_to_xmlschema }}</lastmod>
+        {% elsif page.date %}
+          <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
+        {% else %}
+          <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+        {% endif %}
+        {% if page.sitemap.priority %}
+          <priority>{{ page.sitemap.priority }}</priority>
+        {% else %}
+          <priority>0.80</priority>
+        {% endif %}
+      </url>
+    {% endunless %}
+  {% endfor %}
+  {% for post in site.posts %}
+    <url>
+      <loc>{{ site.url }}{{ post.url }}</loc>
+      <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+      <priority>0.90</priority>
+    </url>
+  {% endfor %}
+</urlset>

@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Products
+description: "Discover Simply Productive's solutions: productivity apps like TaskFlow and TimeBlocks, strategic consulting services, and educational resources to streamline your business workflows."
+keywords: "productivity apps, business consulting services, TaskFlow, TimeBlocks, workflow optimization, small business solutions, productivity tools"
 ---
 
 <!-- Products Hero -->
