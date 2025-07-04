@@ -98,24 +98,6 @@ keywords: "contact simply productive, productivity consulting inquiry, business 
         <p><a href="mailto:hello@getsimplyproductive.com">hello@getsimplyproductive.com</a></p>
         <p class="method-note">For general inquiries and support</p>
       </div>
-      
-      <div class="contact-method">
-        <h4>📞 Phone</h4>
-        <p><a href="tel:+1-555-SIMPLE">(555) SIMPLE-1</a></p>
-        <p class="method-note">Available Mon-Fri, 9 AM - 5 PM EST</p>
-      </div>
-      
-      <div class="contact-method">
-        <h4>💬 Live Chat</h4>
-        <p>Available on our website</p>
-        <p class="method-note">Mon-Fri, 10 AM - 4 PM EST</p>
-      </div>
-      
-      <div class="contact-method">
-        <h4>📍 Location</h4>
-        <p>Remote-first company</p>
-        <p class="method-note">Serving small businesses worldwide</p>
-      </div>
     </div>
   </div>
 </section>
