@@ -57,6 +57,31 @@
           });
         });
       }
+
+      // Product tabs functionality
+      const productTabs = document.querySelectorAll('.product-tab');
+      const productSections = document.querySelectorAll('.product-section');
+
+      if (productTabs.length > 0 && productSections.length > 0) {
+        productTabs.forEach(tab => {
+          tab.addEventListener('click', function() {
+            const targetTab = this.getAttribute('data-tab');
+            
+            // Remove active class from all tabs and sections
+            productTabs.forEach(t => t.classList.remove('active'));
+            productSections.forEach(s => s.classList.remove('active'));
+            
+            // Add active class to clicked tab
+            this.classList.add('active');
+            
+            // Show corresponding section
+            const targetSection = document.getElementById(targetTab + '-section');
+            if (targetSection) {
+              targetSection.classList.add('active');
+            }
+          });
+        });
+      }
     });
   </script>
 </body>
