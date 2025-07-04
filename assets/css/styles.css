@@ -167,6 +167,60 @@ body {
     max-width: 280px;
     text-align: center;
   }
+
+  /* About page mobile adjustments */
+  .about-hero {
+    padding: 2rem 0 1rem;
+  }
+
+  .about-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .mission {
+    margin: 2rem 0;
+    padding: 1.5rem;
+  }
+
+  .mission-statement {
+    font-size: 1.1rem;
+  }
+
+  .story-content p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .philosophy-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .philosophy-item {
+    text-align: center;
+  }
+
+  .values-list {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .value-item {
+    text-align: center;
+  }
+
+  .team-stats {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  .stat {
+    padding: 1rem;
+  }
+
+  .stat h4 {
+    font-size: 1.5rem;
+  }
 }
 
 .content {
@@ -346,4 +400,190 @@ p {
   padding: 1rem;
   font-size: 0.9rem;
   color: #888;
+}
+
+/* About Page Styles */
+.about-hero {
+  padding: 3rem 0 2rem;
+  margin-bottom: 3rem;
+}
+
+.about-subtitle {
+  font-size: 1.3rem;
+  color: #ccc;
+  margin: 1rem 0;
+  font-weight: 500;
+}
+
+.mission {
+  margin: 3rem 0;
+  padding: 2rem;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  border-left: 4px solid #3b82f6;
+}
+
+.mission-statement {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: #eee;
+  font-style: italic;
+  margin: 1rem 0 0;
+}
+
+.story {
+  margin: 4rem 0;
+  text-align: left;
+}
+
+.story h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.story-content p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #ccc;
+  margin-bottom: 1.5rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.philosophy {
+  margin: 4rem 0;
+}
+
+.philosophy-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.philosophy-item {
+  background-color: #1a1a1a;
+  padding: 2rem;
+  border-radius: 8px;
+  border: 1px solid #333;
+  text-align: left;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.philosophy-item:hover {
+  transform: translateY(-2px);
+  border-color: #3b82f6;
+}
+
+.philosophy-item h3 {
+  color: #eee;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.philosophy-item p {
+  color: #ccc;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.values {
+  margin: 4rem 0;
+}
+
+.values-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.value-item {
+  text-align: left;
+  padding: 1.5rem;
+  background-color: rgba(59, 130, 246, 0.05);
+  border-radius: 6px;
+  border-left: 3px solid #3b82f6;
+}
+
+.value-item h4 {
+  color: #eee;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.value-item p {
+  color: #ccc;
+  font-size: 0.95rem;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.team {
+  margin: 4rem 0;
+}
+
+.team-content {
+  text-align: left;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.team-content p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #ccc;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.team-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.stat {
+  background-color: #1a1a1a;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #333;
+}
+
+.stat h4 {
+  font-size: 2rem;
+  color: #3b82f6;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.stat p {
+  color: #ccc;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.about-cta {
+  margin: 4rem 0 2rem;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  padding: 3rem 2rem;
+  border: 1px solid #333;
+}
+
+.about-cta h2 {
+  color: #eee;
+  margin-bottom: 1rem;
+}
+
+.about-cta p {
+  color: #ccc;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
 }
