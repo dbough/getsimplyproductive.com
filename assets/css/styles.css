@@ -501,7 +501,9 @@ p {
   .about-cta {
     padding: 2.5rem 1.5rem;
   }
-}* Tablets */
+}
+
+/* Tablets */
 @media (max-width: 768px) {
   .content {
     padding: 1rem;
@@ -2028,6 +2030,217 @@ section + section {
   font-size: 1.1rem;
   margin-bottom: 2rem;
   max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Products Page Styles */
+.products-hero {
+  padding: 3rem 0 2rem;
+  margin-bottom: 3rem;
+}
+
+.products-subtitle {
+  font-size: 1.3rem;
+  color: #ccc;
+  margin: 1rem 0;
+  font-weight: 500;
+}
+
+.products-overview {
+  margin: 2rem 0 4rem;
+}
+
+.products-nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.product-tab {
+  background-color: #1a1a1a;
+  color: #ccc;
+  border: 1px solid #333;
+  padding: 0.875rem 1.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.product-tab:hover {
+  background-color: rgba(59, 130, 246, 0.1);
+  border-color: #3b82f6;
+  color: #3b82f6;
+}
+
+.product-tab.active {
+  background-color: #3b82f6;
+  color: #fff;
+  border-color: #3b82f6;
+}
+
+.product-section {
+  display: none;
+  margin: 4rem 0;
+}
+
+.product-section.active {
+  display: block;
+}
+
+.section-intro {
+  font-size: 1.1rem;
+  color: #ccc;
+  text-align: center;
+  margin-bottom: 3rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.products-grid, .services-grid, .content-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.product-card, .service-card, .content-card {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 2rem;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.product-card:hover, .service-card:hover, .content-card:hover {
+  transform: translateY(-4px);
+  border-color: #3b82f6;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.product-card.featured {
+  border-color: #3b82f6;
+  background: linear-gradient(135deg, #1a1a1a 0%, rgba(59, 130, 246, 0.05) 100%);
+}
+
+.product-card.coming-soon, .content-card.coming-soon {
+  opacity: 0.8;
+  border-style: dashed;
+}
+
+.product-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+.product-card h3, .service-card h3, .content-card h3 {
+  color: #eee;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.product-tag, .service-duration {
+  background-color: rgba(59, 130, 246, 0.2);
+  color: #60a5fa;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.service-duration {
+  background-color: rgba(16, 185, 129, 0.2);
+  color: #34d399;
+}
+
+.product-description, .service-card p, .content-card p {
+  color: #ccc;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.product-features ul, .service-includes ul, .content-features ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.product-features li, .service-includes li, .content-features li {
+  color: #ccc;
+  padding: 0.5rem 0;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.product-features li:before, .service-includes li:before, .content-features li:before {
+  content: "✓";
+  color: #10b981;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+.service-includes h4 {
+  color: #eee;
+  margin: 1.5rem 0 0.75rem 0;
+  font-size: 1rem;
+}
+
+.product-pricing, .service-pricing, .content-pricing {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 0 1.5rem 0;
+  gap: 1rem;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #3b82f6;
+}
+
+.pricing-note {
+  color: #888;
+  font-size: 0.85rem;
+  margin: 0;
+  text-align: right;
+  flex: 1;
+}
+
+.product-actions, .service-actions {
+  margin-top: auto;
+}
+
+.products-cta {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 3rem 2rem;
+  margin: 4rem 0;
+  text-align: center;
+}
+
+.products-cta h2 {
+  color: #eee;
+  margin-bottom: 1rem;
+}
+
+.products-cta p {
+  color: #ccc;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  max-width: 700px;
   margin-left: auto;
   margin-right: auto;
 }
