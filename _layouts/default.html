@@ -82,6 +82,62 @@
           });
         });
       }
+
+      // Contact form enhancements
+      const contactForm = document.querySelector('.contact-form');
+      if (contactForm) {
+        // Add form validation feedback
+        const inputs = contactForm.querySelectorAll('input[required], select[required], textarea[required]');
+        inputs.forEach(input => {
+          input.addEventListener('blur', function() {
+            if (this.value.trim() === '') {
+              this.style.borderColor = '#ef4444';
+            } else {
+              this.style.borderColor = '#10b981';
+            }
+          });
+
+          input.addEventListener('focus', function() {
+            this.style.borderColor = '#3b82f6';
+          });
+        });
+
+        // Handle form submission
+        contactForm.addEventListener('submit', function(e) {
+          // Add loading state to submit button
+          const submitButton = this.querySelector('.submit-button');
+          const originalText = submitButton.textContent;
+          submitButton.textContent = 'Sending...';
+          submitButton.disabled = true;
+          
+          // Reset button after 2 seconds (for demo purposes)
+          setTimeout(() => {
+            submitButton.textContent = 'Message Sent!';
+            setTimeout(() => {
+              submitButton.textContent = originalText;
+              submitButton.disabled = false;
+            }, 2000);
+          }, 1000);
+        });
+      }
+
+      // Smooth scrolling for anchor links
+      const anchorLinks = document.querySelectorAll('a[href^="#"]');
+      anchorLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+          const href = this.getAttribute('href');
+          if (href === '#') return;
+          
+          const target = document.querySelector(href);
+          if (target) {
+            e.preventDefault();
+            target.scrollIntoView({
+              behavior: 'smooth',
+              block: 'start'
+            });
+          }
+        });
+      });
     });
   </script>
 </body>
