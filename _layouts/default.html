@@ -8,11 +8,56 @@
   <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
 <body>
+  <header class="site-header">
+    <nav class="nav-container">
+      <div class="nav-brand">
+        <a href="/">
+          <img src="/assets/images/SP - Logo - 500x500.png" alt="Simply Productive Logo" class="logo">
+          <span class="brand-text">Simply Productive</span>
+        </a>
+      </div>
+      <div class="nav-menu">
+        <a href="/" class="nav-link {% if page.title == 'Home' %}active{% endif %}">Home</a>
+        <a href="/about" class="nav-link {% if page.title == 'About' %}active{% endif %}">About</a>
+        <a href="/products" class="nav-link {% if page.title == 'Products' %}active{% endif %}">Products</a>
+        <a href="/contact" class="nav-link {% if page.title == 'Contact' %}active{% endif %}">Contact</a>
+      </div>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
   <main class="content">
     {{ content }}
   </main>
   <footer class="site-footer">
     <p>&copy; {{ site.time | date: '%Y' }} Simply Productive. All rights reserved.</p>
   </footer>
+
+  <script>
+    // Mobile menu toggle
+    document.addEventListener('DOMContentLoaded', function() {
+      const navToggle = document.querySelector('.nav-toggle');
+      const navMenu = document.querySelector('.nav-menu');
+      
+      if (navToggle && navMenu) {
+        navToggle.addEventListener('click', function() {
+          navMenu.classList.toggle('active');
+          navToggle.classList.toggle('active');
+        });
+
+        // Close menu when clicking on a link
+        const navLinks = document.querySelectorAll('.nav-link');
+        navLinks.forEach(link => {
+          link.addEventListener('click', function() {
+            navMenu.classList.remove('active');
+            navToggle.classList.remove('active');
+          });
+        });
+      }
+    });
+  </script>
 </body>
 </html>
