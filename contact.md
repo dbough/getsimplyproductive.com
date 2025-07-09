@@ -8,7 +8,7 @@ keywords: "contact simply productive, productivity consulting inquiry, business 
 <!-- Contact Hero -->
 <section class="contact-hero">
   <h1>Get in Touch</h1>
-  <p class="contact-subtitle">We'd love to hear from you! If you have a question, idea, or just want to say hi, email us at <a href="mailto:hey@getsimplyproductive.com">hey@getsimplyproductive.com</a> and we'll get back to you as soon as we can.</p>
+  <p class="contact-subtitle">We'd love to hear from you! If you have a question, idea, or just want to say hi, email us at <a href="mailto:hello@getsimplyproductive.com">hello@getsimplyproductive.com</a> and we'll get back to you as soon as we can.</p>
 </section>
 
 <!-- FAQ Section -->
