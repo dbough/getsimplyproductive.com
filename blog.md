@@ -1,29 +1,27 @@
 ---
 layout: default
 title: Learn
-description: "Practical learning, tips, and resources for small business productivity."
+description: "How-to articles and practical guides for small business productivity."
+permalink: /learn
 ---
 
 <!-- Learn Hero -->
 <section class="learn-hero">
   <h1>Learn</h1>
-  <p class="learn-subtitle">Practical tips, guides, and resources to help your small business work smarter.</p>
+  <p class="learn-subtitle">How-to articles and practical guides to help your small business work smarter.</p>
 </section>
 
-<!-- Coming Soon Placeholder -->
+<!-- Placeholder for future articles -->
 <section class="coming-soon">
   <div class="coming-soon-content">
-    <h3>🚀 Content Coming Soon!</h3>
-    <p>We're preparing practical articles, how-tos, and video guides to help you get more done with less hassle. Here's what you can expect:</p>
+    <h3>🚀 Articles Coming Soon!</h3>
+    <p>We're building a library of step-by-step how-to articles and practical guides for small business productivity. Check back soon for new content!</p>
     <ul>
-      <li>Quick productivity tips for small businesses</li>
-      <li>Tool reviews and recommendations</li>
-      <li>Step-by-step guides and tutorials</li>
-      <li>Success stories and real-world examples</li>
+      <li>How to automate repetitive tasks</li>
+      <li>Tips for organizing your digital workspace</li>
+      <li>Getting started with productivity tools</li>
+      <li>And much more...</li>
     </ul>
-    <p>Want to be notified when we launch? <a href="mailto:hey@getsimplyproductive.com">Let us know!</a></p>
-    <div class="button-container">
-      <a href="/contact" class="button-link primary">Contact Us</a>
-    </div>
+    <p>If you have a topic you'd like to see, <a href="/contact">let us know</a>!</p>
   </div>
 </section>

@@ -75,31 +75,6 @@ keywords: "about simply productive, company mission, productivity philosophy, sm
   </div>
 </section>
 
-<!-- Team Section -->
-<section class="team">
-  <h2>Meet the Team</h2>
-  <div class="team-content">
-    <p>Simply Productive is led by experienced entrepreneurs and productivity experts who have built and scaled multiple small businesses. Our team combines deep technical expertise with real-world business experience.</p>
-    
-    <p>We're not just consultants who've read about productivity—we're practitioners who live it every day. Every recommendation we make has been battle-tested in our own businesses first.</p>
-    
-    <div class="team-stats">
-      <div class="stat">
-        <h4>50+</h4>
-        <p>Small businesses helped</p>
-      </div>
-      <div class="stat">
-        <h4>10+</h4>
-        <p>Years of experience</p>
-      </div>
-      <div class="stat">
-        <h4>100%</h4>
-        <p>Focus on results</p>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- CTA Section -->
 <section class="about-cta">
   <h2>Ready to Simplify Your Business?</h2>
