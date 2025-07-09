@@ -24,7 +24,6 @@ description: "Practical learning, tips, and resources for small business product
     <p>Want to be notified when we launch? <a href="mailto:hey@getsimplyproductive.com">Let us know!</a></p>
     <div class="button-container">
       <a href="/contact" class="button-link primary">Contact Us</a>
-      <a href="/products" class="button-link secondary">See Our Apps</a>
     </div>
   </div>
 </section>

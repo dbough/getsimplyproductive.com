@@ -105,7 +105,6 @@ keywords: "about simply productive, company mission, productivity philosophy, sm
   <h2>Ready to Simplify Your Business?</h2>
   <p>Let's work together to cut through the complexity and build systems that actually help your business grow.</p>
   <div class="button-container">
-    <a href="/products" class="button-link primary">Explore Our Solutions</a>
     <a href="/contact" class="button-link secondary">Get in Touch</a>
   </div>
 </section>
