@@ -109,3 +109,8 @@ keywords: "about simply productive, company mission, productivity philosophy, sm
     <a href="/contact" class="button-link secondary">Get in Touch</a>
   </div>
 </section>
+
+<!-- Legal Disclaimer -->
+<section class="legal-disclaimer">
+  <p style="font-size:0.9em;color:#888;margin-top:2em;">Simply Productive is not a registered business. Content and products are provided as-is.</p>
+</section>
