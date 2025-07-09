@@ -57,19 +57,19 @@ keywords: "about simply productive, company mission, productivity philosophy, sm
   <h2>Our Core Values</h2>
   <div class="values-list">
     <div class="value-item">
-      <h4>Simplicity First</h4>
+      <h4>🧩 Simplicity First</h4>
       <p>Every solution should be easier to use than the problem it solves. If it requires a tutorial, we've missed the mark.</p>
     </div>
     <div class="value-item">
-      <h4>Small Business Focus</h4>
+      <h4>🏢 Small Business Focus</h4>
       <p>We understand the unique challenges of small businesses because we are one. Every solution is built with resource constraints in mind.</p>
     </div>
     <div class="value-item">
-      <h4>Honest Communication</h4>
+      <h4>🤝 Honest Communication</h4>
       <p>We'll tell you what won't work for your business, even if it means losing a sale. Long-term success beats short-term profit.</p>
     </div>
     <div class="value-item">
-      <h4>Continuous Learning</h4>
+      <h4>📚 Continuous Learning</h4>
       <p>Productivity isn't a destination—it's a journey. We're constantly learning and adapting our approach based on real-world feedback.</p>
     </div>
   </div>
@@ -82,9 +82,4 @@ keywords: "about simply productive, company mission, productivity philosophy, sm
   <div class="button-container">
     <a href="/contact" class="button-link secondary">Get in Touch</a>
   </div>
-</section>
-
-<!-- Legal Disclaimer -->
-<section class="legal-disclaimer">
-  <p style="font-size:0.9em;color:#888;margin-top:2em;">Simply Productive is not a registered business. Content and products are provided as-is.</p>
 </section>

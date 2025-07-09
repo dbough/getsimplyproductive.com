@@ -1856,21 +1856,20 @@ section + section {
 }
 
 .mission {
-  background-color: #1a1a1a;
-  border: 1px solid #333;
-  border-radius: 8px;
-  padding: 2.5rem 2rem;
+  background: none;
+  border: none;
+  border-radius: 0;
   margin: 3rem 0;
   text-align: center;
-  border-left: 4px solid #3b82f6;
 }
 
 .mission-statement {
   font-size: 1.2rem;
   color: #eee;
   line-height: 1.6;
-  margin: 0;
+  margin: 0 auto;
   font-weight: 500;
+  max-width: 700px;
 }
 
 .story {
@@ -1896,9 +1895,15 @@ section + section {
 
 .philosophy-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
   margin-top: 2rem;
+}
+
+@media (max-width: 600px) {
+  .philosophy-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .philosophy-item {
@@ -1929,36 +1934,50 @@ section + section {
 }
 
 .values {
+  background: none;
+  border: none;
+  border-radius: 0;
   margin: 4rem 0;
+  text-align: center;
 }
 
 .values-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
-  margin-top: 2rem;
+}
+
+@media (max-width: 600px) {
+  .values-list {
+    grid-template-columns: 1fr;
+  }
 }
 
 .value-item {
-  background-color: rgba(59, 130, 246, 0.05);
-  border: 1px solid rgba(59, 130, 246, 0.2);
-  border-radius: 6px;
-  padding: 1.5rem;
-  border-left: 3px solid #3b82f6;
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.value-item:hover {
+  transform: translateY(-4px);
+  border-color: #3b82f6;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
 }
 
 .value-item h4 {
   color: #eee;
-  margin-bottom: 0.75rem;
-  font-size: 1.1rem;
-  font-weight: 600;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
 }
 
 .value-item p {
   color: #ccc;
   line-height: 1.6;
   margin: 0;
-  font-size: 0.95rem;
 }
 
 .team {
