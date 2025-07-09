@@ -43,7 +43,7 @@ keywords: "productivity, small business, workflow, digital products, business ef
   <div class="learn-grid">
     <div class="learn-card">
       <h3>YouTube Channel</h3>
-      <p>Watch quick tips and tutorials for small business productivity. <a href="#">(Channel coming soon)</a></p>
+      <p>Watch quick tips and tutorials for small business productivity. <a href="https://www.youtube.com/channel/UCmdMGhsnMJxk8TrbOxMYL8w">Simply Productive Tips</a></p>
     </div>
     <div class="learn-card">
       <h3>Articles & Guides</h3>
