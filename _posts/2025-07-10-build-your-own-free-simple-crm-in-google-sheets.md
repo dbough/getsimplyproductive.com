@@ -2,15 +2,14 @@
 layout: post
 title: "Build Your Own Free & Simple CRM in Google Sheets (No Code Required!)"
 description: "Learn how to create a powerful, customizable CRM system using Google Sheets - perfect for small businesses looking to track customer relationships without expensive software."
-date: 2025-07-09
+date: 2025-07-10
 author: "Simply Productive Team"
 categories: [productivity, how-to, small-business]
 tags: [crm, google-sheets, customer-tracking, productivity, no-code, small-business]
 image: "/assets/images/learn/google-sheets-crm.jpg"
 excerpt: "Stop paying for expensive CRM software! Learn how to build your own customer relationship manager in Google Sheets with this step-by-step guide. Track contacts, manage follow-ups, and organize your customer data - all for free."
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sDllKF5oLsg?si=Y6QD3iAQLotx1hK-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+<iframe src="https://www.youtube.com/embed/sDllKF5oLsg?si=Y6QD3iAQLotx1hK-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Managing customer relationships is crucial for any business, but dedicated CRM software can be expensive. What if you could build a powerful, customizable CRM using a tool you likely already have access to? This guide will walk you through creating a simple, yet effective, CRM in Google Sheets, just like demonstrated in the "Simple CRM in Google Sheets: FREE & Easy Customer Tracking (No Code)" video by Simply Productive Tips.
 
