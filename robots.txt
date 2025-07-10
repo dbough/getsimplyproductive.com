@@ -14,7 +14,7 @@ Allow: /
 Allow: /about
 Allow: /products
 Allow: /contact
-Allow: /blog/
+Allow: /learn/
 Allow: /resources/
 Allow: /case-studies/
 

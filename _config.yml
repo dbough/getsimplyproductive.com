@@ -45,16 +45,13 @@ timezone: America/New_York
 google_analytics: # Add GA tracking ID when available
 google_site_verification: # Add Google Search Console verification when available
 
-# Blog Configuration (for future use)
-permalink: /blog/:year/:month/:day/:title/
+# Learn article configuration
+permalink: /learn/:title/
 paginate: 10
-paginate_path: "/blog/page:num/"
+paginate_path: "/learn/page:num/"
 
-# Collections (for future content types)
+# Collections
 collections:
-  posts:
-    output: true
-    permalink: /blog/:year/:month/:day/:title/
   case_studies:
     output: true
     permalink: /case-studies/:name/
