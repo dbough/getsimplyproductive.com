@@ -30,9 +30,9 @@ keywords: "productivity, small business, workflow, digital products, business ef
       <p>Transform every new tab into your personal productivity workspace. Instantly capture, organize, and search your thoughts. <a href="https://chromewebstore.google.com/detail/simply-notes/mkhhaekaoneilcbmcfhiagegfadagnkb" target="_blank" rel="noopener">Learn more</a></p>
     </div>
     <div class="product-card">
-      <h3><a href="https://chromewebstore.google.com/detail/simply-pomodoro/ipaondnemkldgemededpanmgcmkelhdj" target="_blank" rel="noopener">Simply Pomodoro</a></h3>
-      <p>Beautiful, modern Pomodoro timer with circular progress, customizable settings, and smart notifications to boost your productivity. <a href="https://chromewebstore.google.com/detail/simply-pomodoro/ipaondnemkldgemededpanmgcmkelhdj" target="_blank" rel="noopener">Learn more</a></p>
-    </div>
+      <h3>One Focus <span style="font-size:0.7em; color:#aaa;">(Coming soon)</span></h3>
+      <p>Stay centered on what matters—set one daily goal and get gentle reminders as you browse.</p>
+    </div>>
   </div>
   <p style="margin-top:2rem; font-size:1.05em;">See more products at <a href="https://SimplyProductiveSoftware.com" target="_blank" rel="noopener">SimplyProductiveSoftware.com</a>.</p>
 </section>
