@@ -15,11 +15,16 @@ keywords: "about simply productive, Dan Bough, small business tech consultant, n
 <section class="story">
   <h2>Hi, I'm Dan.</h2>
   <div class="story-content">
-    <p>I've worked in tech and tech leadership for more than 20 years. I've built software, led engineering teams, and spent a lot of that time figuring out how people can get more done with less friction. On the side, I build my own small productivity tools.</p>
+    <div class="photo-row">
+      <img class="headshot" src="{{ '/assets/images/dan-headshot.jpg' | relative_url }}" alt="Dan Bough" width="200" height="200">
+      <p>I'm from Lakeland, Florida, and I've worked in tech and tech leadership for more than 20 years. I've built software, led engineering teams, and spent much of that time connecting systems so data moves on its own and building reports people actually use.</p>
+    </div>
 
-    <p>Over and over, I see business owners, nonprofit staff, and solopreneurs buried in work that a computer could do for them: re-typing information, chasing follow-ups, answering the same questions, wrestling with tech that was never set up quite right. Meanwhile, AI tools that could help are moving so fast that nobody running an organization has time to keep up.</p>
+    <p>I recently stepped out of corporate work, and I wanted to use what I know to help organizations directly. I'd like to help the people running businesses and nonprofits get more out of the technology they already have, so they can spend more time serving their clients and constituents.</p>
 
-    <p>That's why I started Simply Productive. I want to be the friendly tech person you don't have on staff. I'll find the busywork, set up simple tools to handle it, and make sure you understand how everything works.</p>
+    <p>I've seen firsthand how much AI can help a team that's already stretched thin. Handled well, it takes on the repetitive work, like drafting messages, answering common questions, sending follow-ups and reminders, and moving data between systems, so people can focus on the parts that need a human. It also changes fast enough that keeping up is a job in itself.</p>
+
+    <p>That's why I started Simply Productive. I want to be the friendly technologist you don't have on staff. I'll look for the busywork, set up simple tools to handle it, and make sure you understand how everything works.</p>
   </div>
 </section>
 

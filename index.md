@@ -63,6 +63,18 @@ keywords: "small business AI, nonprofit tech help, solopreneur AI tools, AI auto
     <li><span class="ex-icon">🔗</span>Connecting forms, calendars, and accounting so data moves on its own</li>
     <li><span class="ex-icon">📊</span>Sending a weekly summary of the numbers that matter</li>
   </ul>
+
+  <h3 class="example-subhead">For nonprofits</h3>
+  <ul class="example-list">
+    <li><span class="ex-icon">💌</span>Sending thank-you emails and receipts to donors automatically, without retyping anything</li>
+    <li><span class="ex-icon">🙋</span>Moving event and volunteer sign-ups straight into one organized list</li>
+    <li><span class="ex-icon">📈</span>Pulling a simple monthly report for your board without rebuilding it by hand</li>
+    <li><span class="ex-icon">🧹</span>Cleaning up donor and contact spreadsheets so they're accurate and usable</li>
+    <li><span class="ex-icon">⏰</span>Reminding volunteers about upcoming shifts by email or text</li>
+    <li><span class="ex-icon">✍️</span>Drafting newsletters, grant updates, and social posts from a few bullet points</li>
+    <li><span class="ex-icon">📥</span>Sorting incoming questions and requests so they reach the right staff member</li>
+    <li><span class="ex-icon">📅</span>Tracking grant deadlines and reporting dates with automatic reminders</li>
+  </ul>
 </section>
 
 <!-- How it works -->
@@ -95,9 +107,14 @@ keywords: "small business AI, nonprofit tech help, solopreneur AI tools, AI auto
 <!-- About Dan -->
 <section class="section" id="about-me">
   <div class="about-me">
-    <h2>Hi, I'm Dan.</h2>
-    <p>I've spent 20+ years in tech and tech leadership, building software, leading teams, and helping people get more done with less hassle. I also build my own productivity tools.</p>
-    <p>Now I'm bringing that experience to businesses, nonprofits, and solopreneurs. AI and automation are moving fast, and most people running an organization don't have time to keep up. That's my job. I'll explain things plainly, recommend only what actually helps, and tell you if something isn't worth it.</p>
+    <div class="photo-row">
+      <img class="headshot" src="{{ '/assets/images/dan-headshot.jpg' | relative_url }}" alt="Dan Bough" width="140" height="140">
+      <div>
+      <h2>Hi, I'm Dan.</h2>
+      <p>I've spent 20+ years in tech and tech leadership, building software, leading teams, and helping people get more done with less hassle. I also build my own productivity tools.</p>
+      <p>Now I'm bringing that experience to businesses, nonprofits, and solopreneurs. AI and automation are moving fast, and most people running an organization don't have time to keep up. That's my job. I'll explain things plainly, recommend only what actually helps, and tell you if something isn't worth it.</p>
+      </div>
+    </div>
   </div>
 </section>
 
