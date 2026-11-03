@@ -8,7 +8,7 @@ keywords: "about simply productive, Dan Bough, small business tech consultant, n
 <!-- About Hero -->
 <section class="about-hero">
   <h1>About Simply Productive</h1>
-  <p class="about-subtitle">Technology should make your work easier, not add to it.</p>
+  <p class="about-subtitle">Technology should work for you, not the other way around.</p>
 </section>
 
 <!-- Story -->
