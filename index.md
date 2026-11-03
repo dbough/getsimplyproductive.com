@@ -1,58 +1,135 @@
 ---
 layout: default
 title: Home
-description: "Simply Productive helps small businesses work smarter with simple digital products, practical learning, and friendly support."
-keywords: "productivity, small business, workflow, digital products, business efficiency"
+description: "Practical AI automations and tech help for small and mid-sized businesses, nonprofits, and solopreneurs. Simple tools that take the busywork off your plate. Book a free consult."
+keywords: "small business AI, nonprofit tech help, solopreneur AI tools, AI automation, AI consultant, workflow automation, Zapier, Google Workspace setup, AI training"
 ---
 
-<!-- Hero Section -->
+<!-- Hero -->
 <section class="hero">
-  <h1>Simply Productive</h1>
-  <p class="hero-subtitle">Simple tools and tips for small business productivity.</p>
-  <p class="hero-description">We create focused digital products and share practical know-how to help you work smarter, not harder. If you run a small business and want to get more done with less hassle, you're in the right place.</p>
+  <p class="eyebrow">AI automation for businesses, nonprofits &amp; solopreneurs</p>
+  <h1>Spend less time on busywork and more time on your clients.</h1>
+  <p class="hero-description">I set up simple automations and AI tools for the repetitive stuff, explained in plain English and built around how you already work.</p>
   <div class="button-container">
-    <a href="#featured-products" class="button-link secondary">Featured Products</a>
-    <a href="#learn-with-us" class="button-link secondary">Learn With Us</a>
-    <a href="/contact" class="button-link secondary">Contact</a>
+    <a href="{{ site.calendly }}" class="button-link primary" target="_blank" rel="noopener">Book a free 30-min consult</a>
+    <a href="#get-in-touch" class="button-link secondary">Tell me what's slowing you down</a>
   </div>
 </section>
 
-<!-- Products Placeholder -->
-<section class="products-preview" id="featured-products">
-  <h2>Featured Products</h2>
-  <div class="products-grid">
-    <div class="product-card">
-      <h3><a href="https://chromewebstore.google.com/detail/flowsave/kjoapfegbedibdgajoobgipgmcnbblno" target="_blank" rel="noopener">FlowSave</a></h3>
-      <p>Effortlessly save links, highlights, and notes without breaking your flow. Stay focused now—review on your schedule. <a href="https://chromewebstore.google.com/detail/flowsave/kjoapfegbedibdgajoobgipgmcnbblno" target="_blank" rel="noopener">Learn more</a></p>
+<!-- Who I help -->
+<section class="section who-i-help">
+  <div class="audience-grid">
+    <div class="audience">
+      <h3>🏢 Small &amp; mid-sized businesses</h3>
+      <p>Cut the busywork for owners and teams, from the front desk to the back office.</p>
     </div>
-    <div class="product-card">
-      <h3><a href="https://chromewebstore.google.com/detail/simply-notes/mkhhaekaoneilcbmcfhiagegfadagnkb" target="_blank" rel="noopener">Simply Notes</a></h3>
-      <p>Transform every new tab into your personal productivity workspace. Instantly capture, organize, and search your thoughts. <a href="https://chromewebstore.google.com/detail/simply-notes/mkhhaekaoneilcbmcfhiagegfadagnkb" target="_blank" rel="noopener">Learn more</a></p>
+    <div class="audience">
+      <h3>💙 Nonprofits</h3>
+      <p>Stretch limited staff and volunteer time further, so more goes to the mission.</p>
     </div>
-    <div class="product-card">
-      <h3><a href="https://chromewebstore.google.com/detail/one-focus/fdimngiaicogikhapannfobheghimged" target="_blank" rel="noopener">One Focus</a></h3>
-      <p>Stay centered on what matters—set one daily goal and get gentle reminders as you browse.</p>
-    </div>
-  </div>
-  <p style="margin-top:2rem; font-size:1.05em;">See more products at <a href="https://SimplyProductiveSoftware.com" target="_blank" rel="noopener">SimplyProductiveSoftware.com</a>.</p>
-</section>
-
-<!-- Learn/Education Placeholder -->
-<section class="learn-preview" id="learn-with-us">
-  <h2>Learn with Us</h2>
-  <div class="learn-grid">
-    <div class="learn-card">
-      <h3>YouTube Channel</h3>
-      <p>Watch quick tips and tutorials for small business productivity. <a href="https://www.youtube.com/channel/UCmdMGhsnMJxk8TrbOxMYL8w">Simply Productive Tips</a></p>
-    </div>
-    <div class="learn-card">
-      <h3>Articles & Guides</h3>
-      <p>Read practical advice and how-tos in our <a href="/learn">Learn</a> section.</p>
+    <div class="audience">
+      <h3>🧑‍💻 Solopreneurs</h3>
+      <p>When you <em>are</em> the whole company, your time is the scarcest thing you have.</p>
     </div>
   </div>
 </section>
 
-<!-- Call to Action -->
-<section class="cta" style="background:none; border:none; margin:2rem 0 0 0; padding:0; text-align:center;">
-  <p style="font-size:1.1em; color:#ccc;">We'd love your feedback as we build new tools and content for small businesses. <a href="/contact">Let us know what you think</a>.</p>
+<!-- Pain points -->
+<section class="section" id="sound-familiar">
+  <h2>Sound familiar?</h2>
+  <ul class="pain-list">
+    <li>Typing the same information into three different places</li>
+    <li>Leads and calls that slip through the cracks</li>
+    <li>Chasing invoices, reminders, and follow-ups by hand</li>
+    <li>Answering the same customer questions over and over</li>
+    <li>Spreadsheets only one person understands</li>
+    <li>"I know I should be using AI, but where do I start?"</li>
+  </ul>
+</section>
+
+<!-- Examples -->
+<section class="section" id="services">
+  <h2>Examples of what AI &amp; automation can handle</h2>
+  <p class="section-lead">These are the kinds of tasks today's tools are good at. Every organization is different, so we'd start with what's eating <em>your</em> time.</p>
+  <ul class="example-list">
+    <li><span class="ex-icon">📞</span>Answering missed and after-hours calls, or texting callers back automatically</li>
+    <li><span class="ex-icon">⚡</span>Replying instantly to new web inquiries and alerting the right person</li>
+    <li><span class="ex-icon">🔁</span>Following up on quotes that go quiet</li>
+    <li><span class="ex-icon">📝</span>Drafting quotes from job details and your pricing</li>
+    <li><span class="ex-icon">🧾</span>Sending invoices with pay links and automatic payment reminders</li>
+    <li><span class="ex-icon">⭐</span>Requesting reviews after each job and drafting replies to new reviews</li>
+    <li><span class="ex-icon">💬</span>Answering common customer questions by chat, text, or email</li>
+    <li><span class="ex-icon">📣</span>Drafting social posts, emails, and Google Business Profile updates</li>
+    <li><span class="ex-icon">🔗</span>Connecting forms, calendars, and accounting so data moves on its own</li>
+    <li><span class="ex-icon">📊</span>Sending a weekly summary of the numbers that matter</li>
+  </ul>
+</section>
+
+<!-- How it works -->
+<section class="section" id="how-it-works">
+  <h2>How it works</h2>
+  <div class="steps">
+    <div class="step">
+      <span class="step-number">1</span>
+      <h3>Free tech consult</h3>
+      <p>A 30-minute conversation about how your work runs day to day and where the time goes.</p>
+    </div>
+    <div class="step">
+      <span class="step-number">2</span>
+      <h3>A simple plan</h3>
+      <p>A short, plain-English list of ideas worth trying and what each would involve. No pressure to do any of it.</p>
+    </div>
+    <div class="step">
+      <span class="step-number">3</span>
+      <h3>Set it up</h3>
+      <p>If something makes sense, I set it up and walk you through how it works.</p>
+    </div>
+    <div class="step">
+      <span class="step-number">4</span>
+      <h3>Keep it running</h3>
+      <p>Tools change and so does your work. I can stay on to keep things running smoothly, make adjustments, and add new automations over time.</p>
+    </div>
+  </div>
+</section>
+
+<!-- About Dan -->
+<section class="section" id="about-me">
+  <div class="about-me">
+    <h2>Hi, I'm Dan.</h2>
+    <p>I've spent 20+ years in tech and tech leadership, building software, leading teams, and helping people get more done with less hassle. I also build my own productivity tools.</p>
+    <p>Now I'm bringing that experience to businesses, nonprofits, and solopreneurs. AI and automation are moving fast, and most people running an organization don't have time to keep up. That's my job. I'll explain things plainly, recommend only what actually helps, and tell you if something isn't worth it.</p>
+  </div>
+</section>
+
+<!-- Intake -->
+<section class="section" id="get-in-touch">
+  <h2>Tell me what's slowing you down</h2>
+  {% if site.formspree_id != "" %}
+  <p class="section-lead">Prefer not to book a call yet? Send a quick note and I'll get back to you.</p>
+  <form class="contact-form intake-form" action="https://formspree.io/f/{{ site.formspree_id }}" method="POST">
+    <div class="form-row">
+      <label>Your name<input type="text" name="name" required autocomplete="name"></label>
+      <label>Business name<input type="text" name="business" required autocomplete="organization"></label>
+    </div>
+    <div class="form-row">
+      <label>Email<input type="email" name="email" required autocomplete="email"></label>
+      <label>Phone <span class="optional">(optional)</span><input type="tel" name="phone" autocomplete="tel"></label>
+    </div>
+    <label>What's eating up your time?<textarea name="message" rows="4" required placeholder="e.g. I spend every Sunday doing invoices..."></textarea></label>
+    <input type="text" name="_gotcha" class="honeypot" tabindex="-1" autocomplete="off">
+    <button type="submit" class="button-link primary submit-button">Send</button>
+  </form>
+  {% else %}
+  <p class="section-lead">The quickest way is a free 30-minute call. Or just email me with a sentence or two about what's eating up your time.</p>
+  {% endif %}
+</section>
+
+<!-- Final CTA -->
+<section class="cta final-cta">
+  <h2>Let's talk about what's slowing you down.</h2>
+  <p>A free 30-minute call. No pitch and no jargon.</p>
+  <div class="button-container">
+    <a href="{{ site.calendly }}" class="button-link primary" target="_blank" rel="noopener">Book your free consult</a>
+  </div>
+  <p class="cta-alt">Or email <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
 </section>

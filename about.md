@@ -1,85 +1,57 @@
 ---
 layout: default
 title: About
-description: "Learn about Simply Productive's mission to help small businesses achieve more by doing less. Our philosophy focuses on simple, practical productivity solutions that actually work."
-keywords: "about simply productive, company mission, productivity philosophy, small business consulting, business efficiency experts"
+description: "Simply Productive is Dan Bough, a tech leader with 20+ years of experience who helps small and mid-sized businesses, nonprofits, and solopreneurs save time with practical AI automations and tech help."
+keywords: "about simply productive, Dan Bough, small business tech consultant, nonprofit tech help, solopreneur AI, AI automation consultant"
 ---
 
 <!-- About Hero -->
 <section class="about-hero">
   <h1>About Simply Productive</h1>
-  <p class="about-subtitle">We believe productivity doesn't have to be complicated.</p>
+  <p class="about-subtitle">Technology should save you time, not eat it.</p>
 </section>
 
-<!-- Mission Section -->
-<section class="mission">
-  <h2>Our Mission</h2>
-  <p class="mission-statement">To help small businesses achieve more by doing less—cutting through complexity to deliver simple, effective productivity solutions that actually work.</p>
-</section>
-
-<!-- Story Section -->
+<!-- Story -->
 <section class="story">
-  <h2>Our Story</h2>
+  <h2>Hi, I'm Dan.</h2>
   <div class="story-content">
-    <p>Simply Productive was born from a simple observation: most productivity tools and systems are overcomplicated, overwhelming, and often create more work than they solve.</p>
-    
-    <p>After years of watching small businesses struggle with complex software, endless workflows, and productivity systems that required a manual to understand, we decided there had to be a better way.</p>
-    
-    <p>We founded Simply Productive on the principle that the best solutions are often the simplest ones. Every app we build, every consulting engagement we take on, and every piece of content we create is designed with one goal in mind: helping you work smarter, not harder.</p>
+    <p>I've worked in tech and tech leadership for more than 20 years. I've built software, led engineering teams, and spent a lot of that time figuring out how people can get more done with less friction. On the side, I build my own small productivity tools.</p>
+
+    <p>Over and over, I see business owners, nonprofit staff, and solopreneurs buried in work that a computer could do for them: re-typing information, chasing follow-ups, answering the same questions, wrestling with tech that was never set up quite right. Meanwhile, AI tools that could help are moving so fast that nobody running an organization has time to keep up.</p>
+
+    <p>That's why I started Simply Productive. I want to be the friendly tech person you don't have on staff. I'll find the busywork, set up simple tools to handle it, and make sure you understand how everything works.</p>
   </div>
 </section>
 
-<!-- Philosophy Section -->
+<!-- Philosophy -->
 <section class="philosophy">
-  <h2>The Simply Productive Philosophy</h2>
+  <h2>How I work</h2>
   <div class="philosophy-grid">
     <div class="philosophy-item">
-      <h3>🎯 Focus Over Features</h3>
-      <p>We'd rather solve one problem perfectly than offer fifty mediocre solutions. Every feature must earn its place.</p>
+      <h3>🎯 Start with the problem</h3>
+      <p>We start with what's eating your time and work backward to the simplest fix.</p>
     </div>
     <div class="philosophy-item">
-      <h3>⚡ Speed Over Perfection</h3>
-      <p>Better to get 80% of the benefit in 20% of the time than to spend months perfecting a system you'll never use.</p>
+      <h3>⚡ Quick wins first</h3>
+      <p>Start small and practical instead of planning a six-month project. Small wins add up.</p>
     </div>
     <div class="philosophy-item">
-      <h3>🔧 Practical Over Theoretical</h3>
-      <p>We test everything with real businesses facing real challenges. If it doesn't work in practice, it doesn't make the cut.</p>
+      <h3>🧩 Use what you have</h3>
+      <p>Most organizations already pay for tools that can do more. I'll get more out of those before suggesting anything new.</p>
     </div>
     <div class="philosophy-item">
-      <h3>📈 Results Over Process</h3>
-      <p>We care about outcomes, not how impressive your workflow looks. Simple processes that deliver results beat complex systems every time.</p>
+      <h3>🤝 Plain English, honest advice</h3>
+      <p>No jargon. If something isn't worth your money, I'll tell you, even if it means less work for me.</p>
     </div>
   </div>
 </section>
 
-<!-- Values Section -->
-<section class="values">
-  <h2>Our Core Values</h2>
-  <div class="values-list">
-    <div class="value-item">
-      <h4>🧩 Simplicity First</h4>
-      <p>Every solution should be easier to use than the problem it solves. If it requires a tutorial, we've missed the mark.</p>
-    </div>
-    <div class="value-item">
-      <h4>🏢 Small Business Focus</h4>
-      <p>We understand the unique challenges of small businesses because we are one. Every solution is built with resource constraints in mind.</p>
-    </div>
-    <div class="value-item">
-      <h4>🤝 Honest Communication</h4>
-      <p>We'll tell you what won't work for your business, even if it means losing a sale. Long-term success beats short-term profit.</p>
-    </div>
-    <div class="value-item">
-      <h4>📚 Continuous Learning</h4>
-      <p>Productivity isn't a destination—it's a journey. We're constantly learning and adapting our approach based on real-world feedback.</p>
-    </div>
-  </div>
-</section>
-
-<!-- CTA Section -->
+<!-- CTA -->
 <section class="about-cta">
-  <h2>Ready to Simplify Your Business?</h2>
-  <p>Let's work together to cut through the complexity and build systems that actually help your business grow.</p>
+  <h2>Let's see what we can take off your plate</h2>
+  <p>Book a free 30-minute consult and tell me what's eating your time.</p>
   <div class="button-container">
-    <a href="/contact" class="button-link secondary">Get in Touch</a>
+    <a href="{{ site.calendly }}" class="button-link primary" target="_blank" rel="noopener">Book a free call</a>
+    <a href="{{ site.linkedin }}" class="button-link secondary" target="_blank" rel="noopener">Connect on LinkedIn</a>
   </div>
 </section>
