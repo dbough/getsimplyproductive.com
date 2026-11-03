@@ -130,7 +130,7 @@ keywords: "small business AI, nonprofit tech help, solopreneur AI tools, AI auto
     </div>
     <div class="form-row">
       <label>Email<input type="email" name="email" required autocomplete="email"></label>
-      <label>Phone <span class="optional">(optional)</span><input type="tel" name="phone" autocomplete="tel"></label>
+      <label><span>Phone <span class="optional">(optional)</span></span><input type="tel" name="phone" autocomplete="tel"></label>
     </div>
     <label>What's eating up your time?<textarea name="message" rows="4" required placeholder="e.g. I spend every Sunday doing invoices..."></textarea></label>
     <input type="text" name="_gotcha" class="honeypot" tabindex="-1" autocomplete="off">
