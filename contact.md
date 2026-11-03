@@ -1,31 +1,41 @@
 ---
 layout: default
 title: Contact
-description: "Get in touch with Simply Productive for productivity consulting, app development, or general inquiries. We help small businesses simplify their workflows and boost efficiency."
-keywords: "contact simply productive, productivity consulting inquiry, business workflow help, get in touch, productivity consultation"
+description: "Book a free 30-minute consult with Simply Productive, or email Dan to talk about AI automations and tech help for your business, nonprofit, or solo practice."
+keywords: "contact simply productive, free tech consult, small business AI help, nonprofit tech help, book a call"
 ---
 
 <!-- Contact Hero -->
 <section class="contact-hero">
-  <h1>Get in Touch</h1>
-  <p class="contact-subtitle">We'd love to hear from you! If you have a question, idea, or just want to say hi, email us at <a href="mailto:hello@getsimplyproductive.com">hello@getsimplyproductive.com</a> and we'll get back to you as soon as we can.</p>
+  <h1>Let's talk</h1>
+  <p class="contact-subtitle">The easiest way to start is a free 30-minute consult. We'll talk about how your work runs and where the time goes.</p>
+  <div class="button-container">
+    <a href="{{ site.calendly }}" class="button-link primary" target="_blank" rel="noopener">Book a free call</a>
+    {% if site.formspree_id != "" %}<a href="/#get-in-touch" class="button-link secondary">Send a quick note</a>{% endif %}
+  </div>
+  <p class="cta-alt">Or email <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
 </section>
 
-<!-- FAQ Section -->
+<!-- FAQ -->
 <section class="faq-section">
-  <h2>Frequently Asked Questions</h2>
-  <ul class="faq-list" style="max-width:600px;margin:2rem auto 0;text-align:left;list-style:none;padding:0;">
-    <li style="margin-bottom:2rem;">
-      <strong>Do you do training?</strong><br>
-      Yes, through our YouTube channel and the Learn section. We're busy working on our library of content, so check back often!
-    </li>
-    <li style="margin-bottom:2rem;">
-      <strong>Do you do consulting or custom simple productivity training?</strong><br>
-      Absolutely! Reach out and let's see how we can help.
-    </li>
-    <li style="margin-bottom:2rem;">
-      <strong>What else should I know?</strong><br>
-      We're a new endeavor looking for a market. If you think you can help, or have feedback, let us know!
-    </li>
-  </ul>
+  <h2>Common questions</h2>
+  <dl class="faq">
+    <dt>Do I need to be "good with tech"?</dt>
+    <dd>Not at all. That's my job. I explain everything in plain English and set things up so they're easy to use day to day.</dd>
+
+    <dt>What does it cost?</dt>
+    <dd>The consult is free. After that it depends on what makes sense for you, and we'd agree on cost before any work starts.</dd>
+
+    <dt>Will I have to buy a bunch of new software?</dt>
+    <dd>Usually not. I start with the tools you already pay for (email, Google or Microsoft, your booking or accounting software) and only suggest something new if it clearly pays for itself.</dd>
+
+    <dt>Is my data safe with AI tools?</dt>
+    <dd>It's a fair question. I'll recommend business-grade tools, keep sensitive information out of places it doesn't belong, and walk you through exactly what each tool can see.</dd>
+
+    <dt>What happens after something is set up?</dt>
+    <dd>Automations need occasional care. Apps update, and your needs change. I offer ongoing support to keep things running, fix issues, and add improvements as you go.</dd>
+
+    <dt>Do you work in person or remotely?</dt>
+    <dd>Either. Plenty of work can happen over a video call, but I'm happy to come by when it helps.</dd>
+  </dl>
 </section>

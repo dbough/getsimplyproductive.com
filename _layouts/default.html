@@ -2,7 +2,6 @@
 <html lang="{{ site.lang | default: 'en' }}">
 <head>
   <meta charset="UTF-8">
-  <title>{{ page.title }} | {{ site.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{{ page.description | default: site.description }}">
   <meta name="author" content="{{ page.author | default: site.author }}">
@@ -31,9 +30,10 @@
       </div>
       <div class="nav-menu">
         <a href="/" class="nav-link {% if page.title == 'Home' %}active{% endif %}">Home</a>
+        <a href="/#services" class="nav-link">Examples</a>
         <a href="/about" class="nav-link {% if page.title == 'About' %}active{% endif %}">About</a>
-        <a href="/learn" class="nav-link {% if page.title == 'Learn' %}active{% endif %}">Learn</a>
         <a href="/contact" class="nav-link {% if page.title == 'Contact' %}active{% endif %}">Contact</a>
+        <a href="{{ site.calendly }}" class="button-link primary nav-cta" target="_blank" rel="noopener">Book a free call</a>
       </div>
       <button class="nav-toggle" aria-label="Toggle navigation">
         <span></span>
@@ -46,6 +46,11 @@
     {{ content }}
   </main>
   <footer class="site-footer">
+    <p class="footer-links">
+      <a href="{{ site.calendly }}" target="_blank" rel="noopener">Book a free call</a> ·
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a> ·
+      <a href="{{ site.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
+    </p>
     <p>&copy; {{ site.time | date: '%Y' }} Simply Productive. All rights reserved.</p>
   </footer>
 
@@ -71,31 +76,6 @@
         });
       }
 
-      // Product tabs functionality
-      const productTabs = document.querySelectorAll('.product-tab');
-      const productSections = document.querySelectorAll('.product-section');
-
-      if (productTabs.length > 0 && productSections.length > 0) {
-        productTabs.forEach(tab => {
-          tab.addEventListener('click', function() {
-            const targetTab = this.getAttribute('data-tab');
-            
-            // Remove active class from all tabs and sections
-            productTabs.forEach(t => t.classList.remove('active'));
-            productSections.forEach(s => s.classList.remove('active'));
-            
-            // Add active class to clicked tab
-            this.classList.add('active');
-            
-            // Show corresponding section
-            const targetSection = document.getElementById(targetTab + '-section');
-            if (targetSection) {
-              targetSection.classList.add('active');
-            }
-          });
-        });
-      }
-
       // Contact form enhancements
       const contactForm = document.querySelector('.contact-form');
       if (contactForm) {
@@ -115,22 +95,13 @@
           });
         });
 
-        // Handle form submission
-        contactForm.addEventListener('submit', function(e) {
-          // Add loading state to submit button
+        // Show a sending state; the form submits normally to its action URL
+        contactForm.addEventListener('submit', function() {
           const submitButton = this.querySelector('.submit-button');
-          const originalText = submitButton.textContent;
-          submitButton.textContent = 'Sending...';
-          submitButton.disabled = true;
-          
-          // Reset button after 2 seconds (for demo purposes)
-          setTimeout(() => {
-            submitButton.textContent = 'Message Sent!';
-            setTimeout(() => {
-              submitButton.textContent = originalText;
-              submitButton.disabled = false;
-            }, 2000);
-          }, 1000);
+          if (submitButton) {
+            submitButton.textContent = 'Sending...';
+            submitButton.disabled = true;
+          }
         });
       }
 
