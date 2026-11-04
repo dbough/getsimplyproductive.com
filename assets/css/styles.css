@@ -3077,7 +3077,17 @@ a[href^="mailto:"]:hover::before {
 
 .intake-form .optional { color: #888; font-weight: 400; }
 .intake-form .submit-button { align-self: flex-start; }
-.honeypot { position: absolute; left: -9999px; }
+.honeypot { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
+
+/* Mobile safety: stop any stray wide element from zooming the page out on iOS */
+html, body { max-width: 100%; overflow-x: clip; }
+.intake-form label { min-width: 0; }
+.intake-form input,
+.intake-form textarea { width: 100%; min-width: 0; box-sizing: border-box; }
+.intake-form .form-row { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+@media (max-width: 768px) {
+  .intake-form .form-row { grid-template-columns: minmax(0, 1fr); }
+}
 
 /* CTAs */
 .final-cta {
