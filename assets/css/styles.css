@@ -3252,8 +3252,19 @@ html, body { max-width: 100%; overflow-x: clip; }
 
   .photo-row {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 1.25rem;
+  }
+
+  /* Photo is centered when stacked; text beside it stays full width */
+
+  .photo-row > div,
+  .photo-row > p {
+    align-self: stretch;
+  }
+
+  .photo-row h2 {
+    text-align: center;
   }
 }
 
