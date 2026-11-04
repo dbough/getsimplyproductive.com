@@ -3256,3 +3256,7 @@ html, body { max-width: 100%; overflow-x: clip; }
     gap: 1.25rem;
   }
 }
+
+/* Privacy page */
+.privacy { max-width: 680px; text-align: left; }
+.privacy p { color: #ccc; }
